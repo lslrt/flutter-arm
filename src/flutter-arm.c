@@ -40,6 +40,7 @@
 #include <plugins/text_input.h>
 #include <plugins/raw_keyboard.h>
 
+#include <gbm-wrapper.h>
 
 char* usage ="\
 flutter-arm - run flutter apps on your ARM board.\n\
