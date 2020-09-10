@@ -45,7 +45,7 @@ install:
 
 out/obj/%.o: src/%.c 
 	@mkdir -p $(@D)
-	$(CC) -c $(REAL_CFLAGS) $(REAL_LDFLAGS) $< -o $@
+	$(CC) -c $(REAL_CFLAGS) $< -o $@
 
 out/flutter-arm: $(OBJECTS)
 	@mkdir -p $(@D)
